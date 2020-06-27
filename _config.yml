@@ -103,6 +103,7 @@ deploy:
 
 backup:
     type: git
+    theme: butterfly,landscape
     repository:
        github: git@github.com:lmunan/lmunan.github.io.git,backup
 
