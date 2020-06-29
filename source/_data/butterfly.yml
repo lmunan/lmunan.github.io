@@ -737,7 +737,8 @@ fragment_cache: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
-  bottom:
+  bottom: <script id="xplayer" src="https://music.m0x.cn/Static/player/player.js" key="5ef87fd691ad1" m="1"></script>
+    # <div id="music" key="5ef87fd691ad1" api="https://music.m0x.cn"></div><script id="xplayer" src="https://music.m0x.cn/Static/player2/js/player.js" ></script>
     # - <script src="xxxx"></script>
 
 # CDN
@@ -820,3 +821,6 @@ CDN:
   aplayer_css: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
   aplayer_js: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
   meting_js: https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js
+
+
+
